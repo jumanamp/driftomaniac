@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://www.google.com/search?q=self+driving+car+images&rlz=1C1GCEA_enGB767GB767&tbm=isch&source=lnms&sa=X&ved=0ahUKEwi1gJaYnpDZAhWEmlkKHZ7YDJkQ_AUICygC&biw=1920&bih=949&dpr=1#imgrc=GEliYlSB47_MFM:">
+<img src="readme/intro_image">
 </p>
 
 ## Preface
