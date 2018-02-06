@@ -1,5 +1,5 @@
 <p align="center">
-<img src="readme/intro_image">
+<img src="readme/intro_image.jpg">
 </p>
 
 ## Preface
