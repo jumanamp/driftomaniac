@@ -10,13 +10,13 @@
 
 				<p class="presentation">
 
-				Hi, I'm <a href="/about">{{ site.owner.name }}</a>. {{ site.owner.bio }}
+				Hi, I'm <a href="{{ '/about' | relative_url }}">{{ site.owner.name }}</a>. {{ site.owner.bio }}
 
 				</p>
 
 				<hr>
 
-				<p>{{ site.created }} by <a href="/about">{{ site.owner.name }}</a></p>
+				<p>{{ site.created }} by <a href="{{ '/about' | relative_url }}">{{ site.owner.name }}</a></p>
 
 				<ul class="social clean-list">
 

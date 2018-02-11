@@ -27,7 +27,7 @@ title: Latest Posts
 				{% endfor %}
 			{% else %}
 				<li class="no-post">
-					<a class="link-clean" href="/">
+					<a class="link-clean" href="{{ '/' | relative_url }}">
 						<div class="post-info">
 							<h2>There is nothing there, yet!</h2>
 							<p>I'm sure it will come soon.</p>
@@ -39,7 +39,7 @@ title: Latest Posts
 		{% if paginator.next_page %}
 			<div class="container more-article">
 				<div class="row justify-content-md-center">
-					<a class="link-clean col-md-3 text-center" href="/posts">See more articles</a>
+					<a class="link-clean col-md-3 text-center" href="posts">See more articles</a>
 				</div>
 			</div>
 		{% endif %}

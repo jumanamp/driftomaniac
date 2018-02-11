@@ -1,5 +1,5 @@
-<a class="link-clean" href="{{ post.url }}">
-	<div class="post-picture" style="background-image:url('/assets/content/{{ post.feature.image }}');"></div>
+<a class="link-clean" href="{{ post.url | relative_url }}">
+	<div class="post-picture" style="background-image:url({{ '/assets/content/' | append: post.feature.image | relative_url }});"></div>
 	<div class="post-info">
 		<h2>{{ post.title }}</h2>
 		<p>{{ post.date | date_to_string }}</p>

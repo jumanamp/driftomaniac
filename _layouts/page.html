@@ -6,10 +6,10 @@
 	<body>
 		<div class="container-fluid post-hero text-center">
 
-			<a href="/" class="fa fa-angle-left go-out link-clean"></a>
+			<a href="{{ '/' | relative_url }}" class="fa fa-angle-left go-out link-clean"></a>
 
 			<div class="post-bgimage">
-				<img class="post-featureimage" src="/assets/content/{{ page.feature.image }}" style="top:{{ page.feature.top }};">
+				<img class="post-featureimage" src="{{ '/assets/content/' | append: page.feature.image | relative_url }}" style="top:{{ page.feature.top }};">
 				<div class="post-bggradient"></div>
 			</div>
 

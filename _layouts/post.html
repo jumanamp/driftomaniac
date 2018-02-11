@@ -9,11 +9,10 @@
 
 		<div class="container-fluid post-hero text-center">
 
-			<a href="/" class="fa fa-angle-left go-out link-clean"></a>
+			<a href="{{ '/' | relative_url }}'" class="fa fa-angle-left go-out link-clean"></a>
 
 			<div class="post-bgimage">
-				<img class="post-featureimage" src="/assets/content/{{ page.feature.image }}" style="top:{{ page.feature.top }};">
-				<div class="post-bggradient"></div>
+				<img class="post-featureimage" src="{{ '/assets/content/' | append: page.feature.image | relative_url }}" style="top:{{ page.feature.top }};">
 			</div>
 
 			<div class="container">
@@ -48,9 +47,9 @@
 
  		{% if page.previous.url %}
 			<div class="container-fluid post-next">
-				<a class="link-clean" href="{{page.previous.url}}">
+				<a class="link-clean" href="{{page.previous.url | relative_url }}">
 					<div class="post-bgimage">
-						<img class="post-featureimage" src="/assets/content/{{ page.previous.feature.image }}" style="top:{{ page.previous.feature.top }};">
+						<img class="post-featureimage" src="{{ '/assets/content/' | append: page.previous.feature.image | relative_url }}" style="top:{{ page.previous.feature.top }};">
 						<div class="post-bggradient"></div>
 					</div>
 					<div class="container">
@@ -65,9 +64,9 @@
 			</div>
 		{% else if page.next.url %}
 			<div class="container-fluid post-next">
-				<a class="link-clean" href="{{page.next.url}}">
+				<a class="link-clean" href="{{page.next.url | relative_url }}">
 					<div class="post-bgimage">
-						<img class="post-featureimage" src="/assets/content/{{ page.next.feature.image }}" style="top:{{ page.next.feature.top }};">
+						<img class="post-featureimage" src="{{ '/assets/content/' | append: page.next.feature.image | relative_url }}" style="top:{{ page.next.feature.top }};">
 						<div class="post-bggradient"></div>
 					</div>
 					<div class="container">
