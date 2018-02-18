@@ -17,7 +17,7 @@ As much as I like exploring and communicating tech, I also enjoy engaging in a l
 Apart from workouts and yoga, I like playing cards and board games. I love traveling and I wish to cover maximum of planet earth before 
 I am gone.
 
-I sincerely aspire to work towards encouraging and promoting girls into tech/programming. I donot have a solid plan yet, but is one of the major ones in my bucket list for my 30's.
+I sincerely aspire to work towards encouraging and promoting girls into tech/programming. I do not have a solid plan yet, but is one of the major ones in my bucket list for my 30's.
 
 Find me on: [LinkedIn](https://www.linkedin.com/in/jumanamp/ "Jumana's LinkedIn Profile")
 
